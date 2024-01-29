@@ -1,4 +1,5 @@
 import Navbar from "./components/header/Navbar";
+import Client from "./pages/Client";
 import Hero from "./pages/Hero";
 
 
@@ -7,6 +8,7 @@ const App = () => {
         <div>
             <Navbar />
             <Hero />
+            <Client />
         </div>
     )
 };
