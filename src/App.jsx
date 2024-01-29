@@ -1,10 +1,12 @@
-import Header from "./components/header/Header";
+import Navbar from "./components/header/Navbar";
+import Hero from "./pages/Hero";
 
 
 const App = () => {
     return (
         <div>
-            <Header />
+            <Navbar />
+            <Hero />
         </div>
     )
 };

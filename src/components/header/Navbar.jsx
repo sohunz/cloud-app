@@ -2,7 +2,7 @@ import { useState } from "react";
 import { IoMdClose } from "react-icons/io";
 import { RxHamburgerMenu } from "react-icons/rx";
 
-const Header = () => {
+const Navbar = () => {
     const [isNavbarOpen, setNavbarOpen] = useState(false);
 
     const toggleNavbar = () => {
@@ -10,9 +10,11 @@ const Header = () => {
     };
 
     return (
-        <>
+        <div className=" w-full fixed">
             <div className="flex justify-between items-center p-5 border bg-white lg:shadow-md md:shadow-md sm:shadow-none relative transition-all duration-700 ease-in-out">
-                <p className="font-bold text-4xl pr-8">BRAND</p>
+                <p className="font-bold lg:text-4xl md:text-3xl sm:text-2xl text-2xl pr-8">
+                    BRAND
+                </p>
                 <div className=" w-full flex justify-between items-center">
                     <ul
                         className={`hidden lg:flex md:flex sm:hidden gap-5 transition-all duration-300 ease-in-out ${
@@ -97,8 +99,8 @@ const Header = () => {
                     </div>
                 )}
             </div>
-        </>
+        </div>
     );
 };
 
-export default Header;
+export default Navbar;
