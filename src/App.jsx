@@ -1,6 +1,7 @@
 import Navbar from "./components/header/Navbar";
 import Client from "./pages/Client";
 import Hero from "./pages/Hero";
+import Support from "./pages/Support";
 
 
 const App = () => {
@@ -8,7 +9,8 @@ const App = () => {
         <div>
             <Navbar />
             <Hero />
-            <Client />
+            <Client/>
+            <Support />
         </div>
     )
 };
