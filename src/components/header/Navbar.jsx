@@ -10,9 +10,9 @@ const Navbar = () => {
     };
 
     return (
-        <div className=" w-full fixed bg-white">
-            <div className="flex justify-between items-center p-5 border bg-white lg:shadow-md md:shadow-md sm:shadow-none relative transition-all duration-700 ease-in-out">
-                <p className="font-bold lg:text-4xl md:text-3xl sm:text-2xl text-2xl pr-8">
+        <div className=" w-full fixed bg-white top-0">
+            <div className="w-full flex justify-between items-center p-5 border bg-white lg:shadow-md md:shadow-md sm:shadow-none relative transition-all duration-700 ease-in-out">
+                <p className="font-bold lg:text-4xl md:text-3xl sm:text-2xl text-2xl pr-8 cursor-pointer text-blue-800">
                     BRAND
                 </p>
                 <div className=" w-full flex justify-between items-center">
@@ -21,19 +21,19 @@ const Navbar = () => {
                             isNavbarOpen ? "hidden" : ""
                         }`}
                     >
-                        <li className="lg:border-none md:border-none sm:border-b border-b-gray-300 lg:py-0 md:py-0 sm:py-4">
+                        <li className="lg:border-none md:border-none sm:border-b border-b-gray-300 lg:py-0 md:py-0 sm:py-4 cursor-pointer">
                             Home
                         </li>
-                        <li className="lg:border-none md:border-none sm:border-b border-b-gray-300 lg:py-0 md:py-0 sm:py-4">
+                        <li className="lg:border-none md:border-none sm:border-b border-b-gray-300 lg:py-0 md:py-0 sm:py-4 cursor-pointer">
                             About
                         </li>
-                        <li className="lg:border-none md:border-none sm:border-b border-b-gray-300 lg:py-0 md:py-0 sm:py-4">
+                        <li className="lg:border-none md:border-none sm:border-b border-b-gray-300 lg:py-0 md:py-0 sm:py-4 cursor-pointer">
                             Support
                         </li>
-                        <li className="lg:border-none md:border-none sm:border-b border-b-gray-300 lg:py-0 md:py-0 sm:py-4">
+                        <li className="lg:border-none md:border-none sm:border-b border-b-gray-300 lg:py-0 md:py-0 sm:py-4 cursor-pointer">
                             Platforms
                         </li>
-                        <li className="lg:border-none md:border-none sm:border-b border-b-gray-300 lg:py-0 md:py-0 sm:py-4">
+                        <li className="lg:border-none md:border-none sm:border-b border-b-gray-300 lg:py-0 md:py-0 sm:py-4 cursor-pointer">
                             Pricing
                         </li>
                     </ul>
@@ -46,7 +46,7 @@ const Navbar = () => {
                         <button className="lg:border-none md:border-none sm:border text-black rounded-md hover:text-blue-600 h-12">
                             Sign In
                         </button>
-                        <button className="bg-blue-600 w-[120px] h-12 text-white rounded-md hover:bg-white hover:text-blue-600 hover:border-blue-600 border">
+                        <button className="bg-blue-800 w-[120px] h-12 text-white rounded-md hover:bg-white hover:text-blue-800 hover:border-blue-800 border">
                             Sign Up
                         </button>
                     </div>
@@ -89,10 +89,10 @@ const Navbar = () => {
                         </ul>
 
                         <div className="w-full flex flex-col gap-5 items-center">
-                            <button className="border border-blue-600 text-black rounded-md hover:text-blue-600 w-full h-12">
+                            <button className="border border-blue-800 text-black rounded-md hover:text-blue-800 w-full h-12">
                                 Sign In
                             </button>
-                            <button className="bg-blue-600 w-full h-12 text-white rounded-md hover:bg-white hover:text-blue-600 hover:border-blue-600 border">
+                            <button className="bg-blue-800 w-full h-12 text-white rounded-md hover:bg-white hover:text-blue-800 hover:border-blue-800 border">
                                 Sign Up
                             </button>
                         </div>

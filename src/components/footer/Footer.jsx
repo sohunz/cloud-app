@@ -47,7 +47,7 @@ const Footer = () => {
                             The latest news, articles, and resources, sent to
                             your inbox weekly.
                         </p>
-                        <div className="flex flex-row items-center gap-2">
+                        {/* <div className="flex flex-row items-center gap-2">
                             <input
                                 type="email"
                                 placeholder="Enter Email"
@@ -56,7 +56,7 @@ const Footer = () => {
                             <button className="bg-blue-500 px-2 py-2 rounded-md">
                                 Subscript
                             </button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <hr className="w-full h-[2px] bg-gray-200 border-0 dark:bg-gray-700" />
