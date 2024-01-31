@@ -18,7 +18,7 @@ const Support = () => {
                     <p className="text-2xl font-bold text-center pt-24">
                         SUPPORT
                     </p>
-                    <p className="lg:text-4xl md:text-3xl sm:text-3xl font-bold text-center lg:py-10 md:py-5 sm:py-5 py-5">
+                    <p className="lg:text-4xl md:text-3xl sm:text-3xl text-3xl font-bold text-center lg:py-10 md:py-5 sm:py-5 py-5">
                         Finding the right team
                     </p>
                     <p className="lg:text-2xl md:text-xl sm:text-xl">
