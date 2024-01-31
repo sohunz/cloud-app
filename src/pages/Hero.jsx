@@ -8,15 +8,15 @@ const Hero = () => {
     return (
         <div className="w-full lg:h-[640px] md:h-auto sm:h-auto h-auto flex justify-evenly items-center bg-gray-200 lg:mt-[90px] md:mt-[90px] sm:mt-[70px] mt-[70px] mb-20 px-10 lg:py-5 md:py-24 sm:py-16 py-10 ">
             <div className="w-[1440px] mx-auto">
-                <div className="flex lg:flex-row md:flex-row sm:flex-row flex-col justify-between lg:items-center items-start">
-                    <div className=" h-full">
-                        <p className="lg:text-2xl md:text-2xl sm:text-xl text-xl pb-4">
+                <div className="flex lg:flex-row md:flex-row sm:flex-row flex-col-reverse justify-between lg:items-center items-start">
+                    <div className="lg:w-auto md:w-auto sm:w-auto w-full  h-full  flex lg:flex-col md:flex-col sm:flex-col flex-col lg:items-start md:items-start sm:items-start items-center lg:pt-0 md:pt-0 sm:pt-0 pt-5">
+                        <p className="lg:text-2xl md:text-2xl sm:text-xl text-xl pb-4 lg:text-left md:text-left sm:text-left text-center ">
                             Unique Sequencing & Production
                         </p>
-                        <p className="lg:text-5xl md:text-4xl sm:text-2xl text-4xl font-extrabold text-blue-800">
+                        <p className="lg:text-5xl md:text-4xl sm:text-2xl text-5xl font-extrabold text-blue-800 lg:text-left md:text-left sm:text-left text-center">
                             Cloud Management
                         </p>
-                        <p className="lg:text-2xl md:text-xl text-2xl py-5">
+                        <p className="lg:text-2xl md:text-xl text-2xl py-5 lg:text-left md:text-left sm:text-left text-center">
                             This is our Tech brand.
                         </p>
                         <button className="bg-blue-800 lg:w-[200px] md:w-[200px] sm:w-[150px] w-[100px] lg:h-[60px] md:h-[50px] sm:h-[45px] h-[45px] text-white rounded-md hover:bg-white hover:text-blue-800 hover:border-blue-800 border">
@@ -32,7 +32,10 @@ const Hero = () => {
                     <p>Data Services</p>
                     <div className=" w-full flex lg:flex-row md:flex-row sm:flex-col flex-col justify-between p-5 lg:gap-0 md:gap-0 sm:gap-3 gap-3 ">
                         <div className="flex flex-row items-center gap-2 text-lg">
-                            <MdOutlineSecurity color="rgb(30 64 175" size={23} />
+                            <MdOutlineSecurity
+                                color="rgb(30 64 175"
+                                size={23}
+                            />
                             <span>App Security</span>
                         </div>
                         <div className="flex flex-row items-center gap-2 text-lg">

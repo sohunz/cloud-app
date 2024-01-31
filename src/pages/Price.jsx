@@ -2,7 +2,7 @@ import { IoCheckmarkSharp } from "react-icons/io5";
 
 const Price = () => {
     return (
-        <div className="w-full h-auto pb-16 mx-auto px-10  bg-blue-950 text-white mt-16  border border-red-500">
+        <div className="w-full h-auto pb-16 mx-auto px-10  bg-blue-950 text-white mt-16">
             <div className="max-w-[1440px] mx-auto">
                 <div className="max-w-[1440px] mx-auto">
                     <div className="pt-20">
