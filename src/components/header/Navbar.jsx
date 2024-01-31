@@ -10,7 +10,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className=" w-full fixed bg-white top-0">
+        <div className=" w-full fixed bg-white top-0 z-20">
             <div className="w-full flex justify-between items-center p-5 border bg-white lg:shadow-md md:shadow-md sm:shadow-none relative transition-all duration-700 ease-in-out">
                 <p className="font-bold lg:text-4xl md:text-3xl sm:text-2xl text-2xl pr-8 cursor-pointer text-blue-800">
                     BRAND
